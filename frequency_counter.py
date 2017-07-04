@@ -1,7 +1,7 @@
 from collections import Counter
 import re
 
-lorem = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt."
+articles = ["Lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit.", "consectetuer adipiscing elit Lorem some some extra bollocks"]
 word_map = {}
 word_frequency = []
 
@@ -15,6 +15,23 @@ def map_words(string):
 
 def counted_words(string):
     return Counter(__parse_string(string))
+
+def build_table(article_list):
+    master_list = []
+    for article in article_list:
+        map_words(article)
+
+    for article in article_list:
+        word_frequencies = counted_words(article)
+        article_frequencies = []
+        for key in word_map:
+            if key in word_frequencies:
+                article_frequencies.append(word_frequencies[key])
+            else:
+                article_frequencies.append(0)
+        master_list.append(article_frequencies)
+    return master_list
+    print "----"
 
 def frequency_count(string):
     map_words(string)
@@ -30,5 +47,5 @@ def __parse_string(string):
         new_word = re.sub(r'[\W]', '', word)
         new_words.append(new_word)
     return new_words
-    
-print frequency_count(lorem)
+
+print build_table(articles)
