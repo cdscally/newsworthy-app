@@ -1,0 +1,216 @@
+Kamilla Bjorlin has appeared in movies with Al Pacino and Anthony Hopkins, played an “evil serpent” on the popular soap opera “Days of Our Lives” and a countess in “Princess Diaries 2.”
+
+Acting “is the passion of my life,” Bjorlin said in a brief interview, noting that she has been performing since she was 6.
+
+But even as her Hollywood career was flourishing, court documents allege that Bjorlin was the mastermind behind another bit of make-believe: secretly paying writers — some of whom used pseudonyms such as the Swiss Trader and falsely claimed to have MBAs — to produce hundreds of positive articles, tweets and Facebook posts that attempted to pump up the stock prices of specific companies.
+
+In one case, according to a Securities and Exchange Commission complaint, Bjorlin’s firm helped drive up by 925 percent the stock price of Galena Biopharma, a small pharmaceutical company, after placing dozens of articles about the company in reputable online outlets.
+
+Once, such hype might have targeted the uninitiated, but these days, an ­increasing number of stock trades are driven by computers making ­split-second decisions about when to buy or sell — often by using sophisticated algorithms to monitor price ­changes and even the flow of news on mainstream outlets and social media. Some worry that strategically placed commentary can move markets before experienced humans have time to sniff out a con.
+
+Florida-based DreamTeam marketed its ability to leverage its “extensive online social network” to potential clients and was paid $25,000 for 90 days of “social media relations” by one company, according to the SEC. (Michael A. McCarthy, who started DreamTeam, settled with the SEC for more than $100,000 earlier this year. )
+
+In 2015, the SEC filed fraud charges against a Scottish trader whose tweets caused sharp drops in the stock prices­ of two companies so that he could profit from the swings. One company saw its stock price fall 28 percent after the tweet, while the stock price of the other fell 16 percent. The false tweets cost shareholders more than $1.6 million, according to court documents.
+
+Companies are launching efforts to root out phony news, engaging in a kind of technological arms race. Hedge funds that rely on computer algorithms make up nearly 30 percent of U.S. stock trades, nearly double the amount from just a few years ago, according to the research firm Tabb Group.
+
+“This is a modern take on what we call the old pump-and-dump schemes,” or promoting a stock and then selling quickly to cash in on the price change, said Albert Dandridge, a partner with Philadelphia-based Schnader Harrison Segal & Lewis.
+
+Bjorlin, who is expected to go to trial on civil charges as soon as this month, said she can’t tell her side of the story yet. “This has ruined my life,” she said. “No one has any idea what really happened.” She could face millions of dollars in fines if convicted.
+
+In the meantime, her case is buzzing around financial circles and has become a reminder that allegations of fake news are hardly confined to the political world. The SEC recently issued an alert warning investors of the danger of promotion schemes on social media.
+
+The coordinated campaigns across many different websites have ratcheted up the possibility of duping the market, a modern twist on the days when the unscrupulous tried to trick investors with hallway whisperings or direct-mail campaigns.
+
+So worrisome is the trend that the SEC recently filed complaints against more than a dozen companies and people, including Bjorlin, alleging that they pretended to provide independent analysis on financial websites such as Seeking Alpha, Forbes, the Motley Fool and Benzinga that were actually paid for by companies.
+
+“There are so many ways that people can reach investors now, we want people to be critical,” said Melissa Hodgman, associate director of the SEC’s enforcement division. “Even if it appears to be an independent site, we want people to take a breath and do some research. We can’t always rely on what something looks like on its face.”
+
+At a time when investment firms are increasingly experimenting with artificial intelligence and technology that can make trading decisions in a fraction of a second, identifying disreputable sources has become a bigger challenge. In a recent research report, JPMorgan Chase estimated that just 10 percent of daily trading is done by human stock pickers
+
+“The majority of equity investors today don’t buy or sell stocks based on stock-specific fundamentals,” the report said. “Big Data strategies are increasingly challenging traditional fundamental investing and will be a catalyst for changes­ in the years to come.”
+
+Social Market Analytics, for instance, culls millions of tweets a day to give “quantitative” traders a sense of what direction a stock may be moving, said Joe Gits, the company’s chief executive. The firm is on the lookout for false leads and avoids tracking small companies with little following, known as penny stocks, he said.
+
+“There is absolutely pump-and-dump in social-media mentions for penny stocks. That’s why we don’t cover them,” he said.
+
+Indexer, a Houston-based start-up, is developing technology that would rate the reliability of news stories before a stock trader decides how to use the information, said company founder Anton Gordon. Someone who posts “fake news” about a company needs the stock price to move for only a short period to make a profit, said Gordon, a former research analyst.
+
+“Even if the story is killed that same day, they are in and out and already made their profit,” he said. The company’s technology should be ready to launch soon, he said
+
+The problem is potentially more dangerous for retail investors who are attempting to make investment decisions on their own, said Ajay Patel, a finance professor at the Wake Forest University School of Business.
+
+“I don’t believe institutional buyers are relying on these sites, but the retail investor clearly is getting fooled,” Patel said. “Now, instead of somebody calling 1,500 people [to try to push a stock], you just have someone write the same story using 10 different pseudonyms. It is going to be more widespread now. Now that everybody relies on the Internet for news, it is potentially a bigger problem.”
+
+Financial news sites say they are also on the lookout for such scams. Benzinga closed down its external blog allegedly used by Bjorlin’s company to post paid articles about companies. “We are victims as well, as we were unaware that the writers had been compensated for these stories, which also appeared on multiple, well-respected financial websites,” the company said in a statement.
+
+Seeking Alpha said it has had to beef up the processes it uses to validate the identities of the people posting articles. “It is something we have constantly been working on and improving,” said George Moriarty, the site’s executive editor.
+
+False names, hidden fees
+
+Bjorlin, who is also known professionally as Milla Bjorn, founded Lidingo — the name of a town in Sweden — in 2011, according to court documents. The company allegedly paid writers to generate hundreds of “bullish” articles online about companies that hired Lidingo to promote their stock. The company monitored Web traffic and “used message boards” to stoke more interest, according to court documents.
+
+The SEC claims that the writers often used false names and repeatedly were reminded not to disclose that they were being paid by the companies. If potential authors indicated that they felt compelled to disclose how they were being paid, they allegedly weren’t hired. After one writer did disclose the relationship, Bjorlin referred to the writer as an “idiot” in an email, according to the SEC complaint.
+
+The SEC complaint alleges that those who did sign on could earn bonuses if their stories helped boost the price of a company’s stock. To make the authors more believable, they created fake online profiles, claiming that they had an “MBA in finance” or a degree in physics, according to the SEC complaint. One writer allegedly created a profile for “Amy Baldwin” that claimed that she was working for a “Fortune 20 company” and that “in any given day I am assessing risk management and the financial health of various companies.”
+
+That person did not exist, according to the SEC.
+
+One of Lidingo’s most prolific writers, Brian Nichols, allegedly used various pseudonyms, including Arthur Rhodes, Trading Maven, Teresa Dawn and Leopold Epstein, and wrote at least 90 stories for Lidingo without disclosing the arrangement. In one case, “Nichols contacted Bjorlin about his next . . . article, which he was in the process of drafting but wanted to revise because he did not think it would move [the company’s] stock price,” according to court documents.
+
+Nichols, who did not respond to emails or phone messages seeking comment, runs BNL Finance, a news site. Nichols was also charged in the SEC complaint.
+
+Galena, one of Lidingo’s clients, paid Bjorlin’s firm $20,000 a month plus expenses, according to court documents. At one point, Bjorlin allegedly promised to raise the company’s stock price 25 percent or it would get its money back.
+
+Bjorlin requested stock options as well as cash from clients “to ensure we are appropriately compensated for the hard work and the risks, as well as performance,” according to allegations in one subsequent shareholders’ lawsuit.
+
+She threatened to punish the company if it did not follow through, according to the SEC complaint. Her company could “let GALE’s stock price drop if they did not receive stock options immediately,” she told a Lidingo colleague, according to the SEC complaint.
+
+Galena settled SEC charges against the company, but Bjorlin appears to be preparing for a fight. Her attorney did not return emails seeking comment.
+
+In an email exchange with The Washington Post, Bjorlin said: “No matter what story you publish, it won’t be the truth. There is an iceberg beneath the surface, that no one is paying attention to. I was targeted.”
+
+Bjorlin said she is writing a book to clear her name.
+
+Julie Tate and Magda Jean-Louis contributed to this report.
+
+ColinColin
+
+First came Four Loko, the alcoholic energy drink dubbed “blackout in a can.”
+
+Now meet Coco Loko, a “snortable” chocolate powder being marketed as a drug-free way to get a buzz. The product, created by Orlando-based company Legal Lean, includes cacao powder, as well as gingko biloba, taurine and guarana, which are commonly found in energy drinks.
+
+Nick Anderson, the 29-year-old founder of Legal Lean, says he heard about a “chocolate-snorting trend” in Europe a few months ago. He ordered a sample and gave it a try.
+
+“At first, I was like, ‘Is this a hoax?,'” he recalled. “And then I tried it and it was like, okay, this is the future right here.”
+
+Each tin of Coco Loko comes with 10 servings and costs $24.99. (Courtesy of Legal Lean)
+
+That led him to invest $10,000 into creating his own “raw cacao snuff.” It took about 10 tries over two months to come up with the mixture, which was created by an Orlando-based supplement company.
+
+“Some versions, they just burned too much,” Anderson said. “Other times they looked gray and dull, or didn’t have enough stimulants.”
+
+The effects of the cacao-based powder, he said, last about 30 minutes to an hour, and are “almost like an energy-drink feeling, like you’re euphoric but also motivated to get things done.”
+
+But doctors say they’re not quite sure what to make of the brown powder, which hit U.S. shelves last month and is not approved by the Food and Drug Administration.
+
+“The question is, what are the risks of doing it?” said Dr. Andrew Lane, director of the Johns Hopkins Sinus Center. “There’s no data, and as far as I can tell, no one’s studied what happens if you inhale chocolate into your nose. When I mention it to people, nobody’s ever heard of it.” (“Maybe,” he added, “I’m not in the in-crowd.”)
+
+Lane said he wasn’t particularly worried that “snortable” chocolate could become a gateway drug, as users become accustomed to getting a buzz by inhaling powders.
+
+“If you’re going to do drugs, you probably don’t start with chocolate,” he said. “Certainly this is better than using an illicit drug.”
+
+The medical community has long raised concerns about the health effects of energy drinks — which often rely on caffeine, taurine and guarana, and have been shown to raise blood pressure and cause heart palpitations. Lane says those effects could be magnified if a person inhales those stimulants.
+
+[FDA report describing deaths sheds light on high-caffeine beverages]
+
+“There are a few obvious concerns,” he said. “First, it’s not clear how much of each ingredient would be absorbed into the nasal mucus membranes. And, well, putting solid material into your nose — you could imagine it getting stuck in there, or the chocolate mixing with your mucus to create a paste that could block your sinuses.”
+
+A spokesman for the U.S. Food and Drug Administration said it had not decided whether, or how, the agency would regulate the product.
+
+“In reaching that decision, FDA will need to evaluate the product labeling, marketing information, and/or any other information pertaining to the product’s intended use,” spokesman Peter Cassell said in an email.
+
+A representative for the Drug Enforcement Agency, meanwhile, said he was not aware of any agency concerns related to chocolate inhalants.
+
+Tins of Coco Loko, which have about 10 servings, sell for $24.99. Anderson, whose brother is a rapper named Bezz Believe, says the product is popular in the hip-hop community and near college campuses in Houston and Atlanta.
+
+Anderson says he uses the chocolate powder as an alternative to drinking when he goes out. He also reaches for a tin during long car rides, music festivals and in “those types of social situations when you feel anxious.”
+
+He created his company, Legal Lean, two years ago with a $10,000 investment. The idea, he said, was to create a drug-free version of “lean” — a cough syrup-cocktail often made with promethazine or codeine that is known in hip-hop circles as “purple drank.” His grape-flavored version, formulated over three months, is made with herbal extracts and marketed as a “dietary supplement.”
+
+It was a tough sell at first, Anderson says. People weren’t sure what to make of his syrup-y concoction. But his brother soon began hawking it in YouTube music videos, and they began taking it to trade shows, where it generated interest. Today, the company sells 40,000 to 50,000 bottles of Legal Lean (which retail for $12.50 a pop) each month.
+
+(The reviews on online message boards, meanwhile, are mixed: “All I felt was drowsy,” a user named BodyAndBeats wrote on drugs-forum.com. “Put me right to sleep. Wasn’t fun at all,” said another, on IGN.com, a site for video game enthusiasts.)
+
+As for Coco Loko, smoke shops and liquor stores have buying the product cautiously, says Alex P., sales director for Atlanta-based Exclusive Distributors, which distributes the products nationwide. (He declined to give his last name, he said, because “I don’t want people bugging me for all the wrong reasons.”)
+
+“There’s definitely a buzz going around about this,” he said, adding that customers in recent years have been looking for items that make all-natural claims. “It’s not flying off the shelves or anything, but people are definitely curious.”
+
+Read more:
+
+The whopping fine Carl’s Jr. was ordered to pay for allegedly shortchanging workers
+
+A man is suing Hershey for ‘under-filling’ his box of Whoppers
+
+Walmart is asking employees to deliver packages on their way home from work
+
+Walmart’s answer to Aldi and Amazon: ‘designer cantaloupe’
+
+ColinColin
+
+
+
+Martin Shkreli, left, exits federal court in Brooklyn with his attorney Benjamin Brafman on Thursday. (Jeenah Moon/Bloomberg News)
+
+NEW YORK — Federal prosecutors are asking a Brooklyn judge to silence Martin Shkreli, the boisterous former hedge-fund manager and pharmaceutical-industry executive who is on trial facing eight counts of securities fraud.
+
+Shkreli has “embarked on a campaign of disruption,” prosecutors said in a letter to U.S. District Judge Kiyo Matsumoto late Monday. Shkreli should be silenced or the jury semi-sequestered, the prosecutors said.
+
+Former drug executive Martin Shkreli entered a Brooklyn federal courthouse on June 26 for the first day of his trial on charges he ran a Ponzi-like scheme at a hedge fund. (Reuters)
+
+Shkreli is best known for raising the price of a drug used by HIV patients 5,000 percent, but he is on trial for what prosecutors say was a five-year campaign to defraud investors in two hedge funds and the biopharmaceutical company Retrophin, all of which he founded. Shkreli told investors that he had a successful track record as a hedge-fund manager and sent them false performance reports and backdated documents to cover up his losses, prosecutors allege. That was all a lie, prosecutors have said.
+
+Since being indicted in late 2015, Shkreli has struggled to abide by his attorney’s advice that he remain silent. Shkreli continues to be active on social media, holding live chats on Facebook. After being banned from Twitter earlier this year, prosecutors say, he has started tweeting under a new account, @BLMBro, where he has been commenting on the trial. His notoriety made it difficult to find jurors who said they didn’t already dislike the Brooklyn native.
+
+But for prosecutors, the breaking point appears to have been a surprise visit Shkreli, 34, made last week to an overflow courthouse room filled with reporters. During the visit, Shkreli criticized the prosecution team from the Eastern District of New York in Brooklyn, mocking them as the “junior varsity” to the federal prosecutors in Manhattan. “I think the world blames me for almost everything,” he said before being called out of the room by his attorney.
+
+“With Shkreli trying the case through the press, the risk of jury interference and a mistrial are becoming manifest,” prosecutors said in their letter to the judge. “He is roaming the halls of the courthouse commenting to reporters on the evidence at trial, his personal views on the credibility of witnesses and his defense strategy — all of which the reporters are, understandably, then discussing amongst themselves and with members of the public.”
+
+In a letter asking the judge to reject prosecutors’ call for Shkreli to be gagged, Shkreli’s attorneys said the former hedge-fund manager has been “baited” by the media. “Mr. Shkreli’s comments were not intended to disrupt the proceedings,” said Shkreli attorney Benjamin Brafman. “Rather they are defensive measures taken by him in response to what he perceives to be highly prejudicial one-sided coverage of his trial.”
+
+Shkreli’s “comments are the somewhat natural, though unfortunate, consequence of a young man with a demonstrated history of significant anxiety being at the center of a supremely difficult time in his life,” Brafman said.
+
+Shkreli’s trial, which is expected to take up to six weeks, is scheduled to resume Wednesday when Matsumoto could address prosecutors’ complaints. Shkreli faces up to 20 years in prison.
+
+Read more about Martin Shkreli:
+
+‘He was born this way’: Martin Shkreli’s attorney offers defense as securities-fraud trial opens
+
+Shkreli trial hits speed bump: Finding jurors who don’t already dislike him
+
+Martin Shkreli’s trial shows just how angry people are about drug prices
+
+ColinColin
+
+
+
+Martin Shkreli, left, exits federal court in Brooklyn with his attorney Benjamin Brafman on Thursday. (Jeenah Moon/Bloomberg News)
+
+NEW YORK — Federal prosecutors are asking a Brooklyn judge to silence Martin Shkreli, the boisterous former hedge-fund manager and pharmaceutical-industry executive who is on trial facing eight counts of securities fraud.
+
+Shkreli has “embarked on a campaign of disruption,” prosecutors said in a letter to U.S. District Judge Kiyo Matsumoto late Monday. Shkreli should be silenced or the jury semi-sequestered, the prosecutors said.
+
+Former drug executive Martin Shkreli entered a Brooklyn federal courthouse on June 26 for the first day of his trial on charges he ran a Ponzi-like scheme at a hedge fund. (Reuters)
+
+Shkreli is best known for raising the price of a drug used by HIV patients 5,000 percent, but he is on trial for what prosecutors say was a five-year campaign to defraud investors in two hedge funds and the biopharmaceutical company Retrophin, all of which he founded. Shkreli told investors that he had a successful track record as a hedge-fund manager and sent them false performance reports and backdated documents to cover up his losses, prosecutors allege. That was all a lie, prosecutors have said.
+
+Since being indicted in late 2015, Shkreli has struggled to abide by his attorney’s advice that he remain silent. Shkreli continues to be active on social media, holding live chats on Facebook. After being banned from Twitter earlier this year, prosecutors say, he has started tweeting under a new account, @BLMBro, where he has been commenting on the trial. His notoriety made it difficult to find jurors who said they didn’t already dislike the Brooklyn native.
+
+But for prosecutors, the breaking point appears to have been a surprise visit Shkreli, 34, made last week to an overflow courthouse room filled with reporters. During the visit, Shkreli criticized the prosecution team from the Eastern District of New York in Brooklyn, mocking them as the “junior varsity” to the federal prosecutors in Manhattan. “I think the world blames me for almost everything,” he said before being called out of the room by his attorney.
+
+“With Shkreli trying the case through the press, the risk of jury interference and a mistrial are becoming manifest,” prosecutors said in their letter to the judge. “He is roaming the halls of the courthouse commenting to reporters on the evidence at trial, his personal views on the credibility of witnesses and his defense strategy — all of which the reporters are, understandably, then discussing amongst themselves and with members of the public.”
+
+In a letter asking the judge to reject prosecutors’ call for Shkreli to be gagged, Shkreli’s attorneys said the former hedge-fund manager has been “baited” by the media. “Mr. Shkreli’s comments were not intended to disrupt the proceedings,” said Shkreli attorney Benjamin Brafman. “Rather they are defensive measures taken by him in response to what he perceives to be highly prejudicial one-sided coverage of his trial.”
+
+Shkreli’s “comments are the somewhat natural, though unfortunate, consequence of a young man with a demonstrated history of significant anxiety being at the center of a supremely difficult time in his life,” Brafman said.
+
+Shkreli’s trial, which is expected to take up to six weeks, is scheduled to resume Wednesday when Matsumoto could address prosecutors’ complaints. Shkreli faces up to 20 years in prison.
+
+Read more about Martin Shkreli:
+
+‘He was born this way’: Martin Shkreli’s attorney offers defense as securities-fraud trial opens
+
+Shkreli trial hits speed bump: Finding jurors who don’t already dislike him
+
+Martin Shkreli’s trial shows just how angry people are about drug prices
+
+ColinColin
+
+Be the first to know about new stories from PowerPost. Sign up to follow, and we’ll e-mail you free updates as they’re published.
+
+You’ll receive free e-mail news updates each time a new story is published.
+
+You’re all set!
+
+ColinColin
+
