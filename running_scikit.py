@@ -59,12 +59,13 @@ for i in category2:
 
 training_data = category1_training_data + category2_training_data
 training_target = category1_training_data_target + category2_training_data_target
+test_data = category1_test_data + category2_test_data
+test_target = category1_test_data_target + category2_test_data_target
 
 
-
-print(training_target)
-print(len(training_data))
-print(len(training_target))
+print(test_target)
+print(len(test_data))
+print(len(test_target))
 
 from sklearn.feature_extraction.text import CountVectorizer
 count_vect = CountVectorizer()
@@ -93,3 +94,13 @@ if predicted == 0:
     print("Sports")
 else:
     print("Something else")
+
+
+X_test_counts = count_vect.transform(test_data)
+X_test_tfidf = tfidf_transformer.transform(X_test_counts)
+
+predicted_test = tester.predict_with_test_data(clf,X_test_tfidf)
+print("This is np mean accuracy:")
+print(tester.mean_accuracy(predicted_test,test_target))
+print("this is the detailed accuracy table:")
+print(tester.detailed_accuracy(predicted_test,test_target,["Sports","Something else"]))
