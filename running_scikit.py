@@ -29,6 +29,25 @@ for article in category2:
 split = train_test_data_splitter.ask_user_for_split()
 split_data = train_test_data_splitter.split_data(split, category1, category2)
 
+category1_training_data = split_data[0][0]
+category1_test_data = split_data[0][1]
+category2_training_data = split_data[1][0]
+category2_test_data = split_data[1][1]
+
+category1_training_data_target = []
+category1_test_data_target = []
+category2_training_data_target = []
+category2_test_data_target = []
+
+for i in category1_training_data:
+	category1_training_data_target.append(0)
+for i in category1_test_data:
+	category1_test_data_target.append(0)
+for i in category2_training_data:
+	category2_training_data_target.append(1)
+for i in category2_test_data:
+	category2_test_data_target.append(1)
+
 
 category1_target=[]
 for i in category1:
@@ -38,18 +57,18 @@ category2_target=[]
 for i in category2:
 	category1_target.append(1)
 
-data = category1 + category2
-target = category1_target + category2_target
+training_data = category1_training_data + category2_training_data
+training_target = category1_training_data_target + category2_training_data_target
 
 
 
-print(target)
-print(len(data))
-print(len(target))
+print(training_target)
+print(len(training_data))
+print(len(training_target))
 
 from sklearn.feature_extraction.text import CountVectorizer
 count_vect = CountVectorizer()
-X_train_counts = count_vect.fit_transform(data)
+X_train_counts = count_vect.fit_transform(training_data)
 print(X_train_counts.shape)
 
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -58,7 +77,7 @@ X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 print(X_train_tfidf.shape)
 
 from sklearn.naive_bayes import MultinomialNB
-clf = MultinomialNB().fit(X_train_tfidf, target)
+clf = MultinomialNB().fit(X_train_tfidf, training_target)
 
 input_string = input("Please paste the whole news story as one string: ")
 print(input_string)
