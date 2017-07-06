@@ -1,38 +1,47 @@
-sport = []
-rest = []
+from scripts import tester
+from scripts import train_test_data_splitter
 
-sport_files = ['news_parse/guardian_sport.txt']
-rest_files = ['news_parse/guardian_politics.txt', 'news_parse/guardian_business.txt', 'news_parse/guardian_world.txt', 'news_parse/bbc_world.txt', 'news_parse/guardian_technology.txt', 'news_parse/wapo_politics.txt', 'news_parse/wapo_business.txt', 'news_parse/bbc_ukpolitics.txt']
+category1 = []
+category2 = []
+
+category1_files = ['news_parse/guardian_sport.txt']
+category2_files = ['news_parse/guardian_politics.txt', 'news_parse/guardian_business.txt', 'news_parse/guardian_world.txt', 'news_parse/bbc_world.txt', 'news_parse/guardian_technology.txt', 'news_parse/wapo_politics.txt', 'news_parse/wapo_business.txt', 'news_parse/bbc_ukpolitics.txt']
 
 
-for file in sport_files:
+for file in category1_files:
 	articles = open(file,'r').read().split('~~')
 	for article in articles:
-		sport.append(article)
+		category1.append(article)
 
-for file in rest_files:
+for file in category2_files:
 	articles = open(file,'r').read().split('ColinColin')
 	for article in articles:
-		rest.append(article)
+		category2.append(article)
 
-for article in sport:
+for article in category1:
 	if len(article) < 50:
-		sport.remove(article)
+		category1.remove(article)
 
-for article in rest:
+for article in category2:
 	if len(article) < 50:
-		rest.remove(article)
+		category2.remove(article)
 
-sport_target=[]
-for i in sport:
-	sport_target.append(0)
+split = train_test_data_splitter.ask_user_for_split()
+split_data = train_test_data_splitter.split_data(split, category1, category2)
 
-rest_target=[]
-for i in rest:
-	sport_target.append(1)
 
-data = sport + rest
-target = sport_target + rest_target
+category1_target=[]
+for i in category1:
+	category1_target.append(0)
+
+category2_target=[]
+for i in category2:
+	category1_target.append(1)
+
+data = category1 + category2
+target = category1_target + category2_target
+
+
 
 print(target)
 print(len(data))
@@ -65,7 +74,3 @@ if predicted == 0:
     print("Sports")
 else:
     print("Something else")
-
-import numpy as np
-print(np.mean(predicted == target))
-print(sum(target)/len(target))
