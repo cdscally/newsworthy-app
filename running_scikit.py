@@ -1,8 +1,5 @@
-from scripts import tester
-from scripts import train_test_data_splitter
-from scripts import parser
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
+from scripts import tester, train_test_data_splitter, parser
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 
