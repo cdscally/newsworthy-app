@@ -1,5 +1,6 @@
 from scripts import tester
 from scripts import train_test_data_splitter
+from scripts import parser
 
 category1 = []
 category2 = []
@@ -7,24 +8,11 @@ category2 = []
 category1_files = ['news_parse/guardian_sport.txt']
 category2_files = ['news_parse/guardian_politics.txt', 'news_parse/guardian_business.txt', 'news_parse/guardian_world.txt', 'news_parse/bbc_world.txt', 'news_parse/guardian_technology.txt', 'news_parse/wapo_politics.txt', 'news_parse/wapo_business.txt', 'news_parse/bbc_ukpolitics.txt']
 
+parser.parse_txt_into_lists(category1_files,category1,"~~")
+parser.parse_txt_into_lists(category2_files,category2,"ColinColin")
 
-for file in category1_files:
-	articles = open(file,'r').read().split('~~')
-	for article in articles:
-		category1.append(article)
-
-for file in category2_files:
-	articles = open(file,'r').read().split('ColinColin')
-	for article in articles:
-		category2.append(article)
-
-for article in category1:
-	if len(article) < 50:
-		category1.remove(article)
-
-for article in category2:
-	if len(article) < 50:
-		category2.remove(article)
+parser.remove_too_short_articles(category1)
+parser.remove_too_short_articles(category2)
 
 split = train_test_data_splitter.ask_user_for_split()
 split_data = train_test_data_splitter.split_data(split, category1, category2)
