@@ -1,0 +1,12 @@
+sports = ["http://www.wsj.com/public/page/news-sports-scores",
+          "https://www.nytimes.com/section/sports",
+          "http://www.bbc.co.uk/sport",
+          "http://www.npr.org/sections/sports/",
+          "https://uk.reuters.com/news/sports",
+          "http://www.economist.com/topics/sport",
+          "http://hosted.ap.org/dynamic/fronts/SPORTS?SITE=AP",
+          "https://www.thetimes.co.uk/#section-sport",
+          "http://www.telegraph.co.uk/sport/",
+          "https://www.theguardian.com/uk/sport",
+          "http://www.independent.co.uk/sport",
+          ]

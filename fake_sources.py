@@ -1,0 +1,12 @@
+sports = ["http://www.snopes.com/tag/fake-news/",
+          "https://www.infowars.com/",
+          "http://nationalreport.net/",
+          "http://bizstandardnews.com/",
+          "http://abcnews.com.co",
+          "http://www.YourNewsWire.com",
+          "http://www.Now8News.com",
+          "http://www.naturalnews.com",
+          "http://www.Bloomberg.ma",
+          "http://www.cnn-trending.com",
+          "http://www.NBCNews.com.co",
+          ]
