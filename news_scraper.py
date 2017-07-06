@@ -1,18 +1,15 @@
 import newspaper
 import requests
 
-sources = ["http://www.snopes.com/tag/fake-news/",
-           "https://www.infowars.com/news/",
-           "http://nationalreport.net/",
-           "http://bizstandardnews.com/",
-           "http://abcnews.com.co",
-           "http://www.YourNewsWire.com",
-           "http://www.Now8News.com",
-           "http://www.naturalnews.com",
-           "http://www.Bloomberg.ma",
-           "http://www.NBCNews.com.co"
+sources = [#"https://apnews.com//",
+#           "https://www.thetimes.co.uk/",
+#           "http://www.telegraph.co.uk/",
+        #    "https://www.theguardian.com/uk/",
+          "http://www.independent.co.uk/",
+          "http://www.theweek.co.uk/"
           ]
 output = []
+file_name = 'real_news.txt'
 
 for source in sources:
     response = requests.get(source)
@@ -20,24 +17,22 @@ for source in sources:
     if (response.status_code == 200):
         print("%s: %s" % (source, response))
         source_paper = newspaper.build(source, memoize_articles=False)
-        a = len(source.articles)
+        number_of_articles = source_paper.articles
         for article in source_paper.articles:
-            print(a)
-            # article_response = requests.get(article.url)
-            # if (article_response.status_code != 200):
-            #     print('Article %s Error --> continuing' % (a))
-            #     continue
-            # else:
-            #     print('%s - Article %s: %s' % (source, a, article)
-            #     article.download()
-            #     article.parse()
-            #     output.append(article.text)
-            # a -= 1
+            article_response = requests.get(article.url)
+            if (article_response.status_code != 200):
+                print('Article %s Error: --> continuing' % (article))
+                continue
+            else:
+                print('%s - Article: %s' % (source, article.url))
+                article.download()
+                article.parse()
+                output.append(article.text)
     else:
         print('Source Error --> continuing')
         continue
 
-myfile =  open('fake_news.txt','w')
+myfile =  open(file_name,'w')
 
 for article in output:
   myfile.write(article)
