@@ -1,4 +1,5 @@
 from collections import Counter
+from scipy.sparse import csr_matrix
 import re
 
 articles = ["Lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit.", "consectetuer adipiscing elit Lorem some some extra bollocks"]
@@ -19,6 +20,9 @@ def all_articles_word_frequency_table(article_list):
     for article in article_list:
         all_article_frequencies_table.append(article_frequencies(word_frequencies(article)))
     return all_article_frequencies_table
+
+def sparse_frequency(article_list):
+    return csr_matrix(all_articles_word_frequency_table(article_list))
 
 # Private methods
 
@@ -46,6 +50,3 @@ def __already_in_word_library(word, word_frequencies):
         return word_frequencies[word]
     else:
         return 0
-
-
-print all_articles_word_frequency_table(articles)

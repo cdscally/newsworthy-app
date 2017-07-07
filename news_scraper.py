@@ -9,7 +9,7 @@ sources = [#"https://apnews.com//",
           "http://www.theweek.co.uk/"
           ]
 output = []
-file_name = 'real_news.txt'
+file_name = 'data/real_news.txt'
 
 for source in sources:
     response = requests.get(source)
