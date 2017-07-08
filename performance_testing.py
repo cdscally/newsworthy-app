@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import SGDClassifier
 from sklearn.pipeline import Pipeline
+import numpy as np
 
 category1_training = []
 category1_test = []
@@ -57,6 +58,11 @@ text_clf = text_clf.fit(training_data,training_target)
 SGD_text_clf = SGD_text_clf.fit(training_data,training_target)
 
 predicted_test = tester.predict_with_test_data(text_clf,test_data)
+print(predicted_test)
+print(type(predicted_test))
+print(test_target)
+print(predicted_test == test_target)
+print(np.mean(predicted_test == test_target))
 print("This is np mean accuracy for Naiive Bayes:")
 print(tester.mean_accuracy(predicted_test,test_target))
 print("this is the detailed accuracy table:")

@@ -4,6 +4,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import SGDClassifier
 from sklearn.pipeline import Pipeline
 import own_algorithm
+import numpy as np
 
 category1_training = []
 category1_test = []
@@ -50,6 +51,11 @@ X_train_counts = count_vect.fit_transform(training_data)
 tfidf_transformer = TfidfTransformer()
 X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 X_train_tfidf_array = X_train_tfidf.toarray()
+print(type(X_train_tfidf_array))
+print(type(X_train_tfidf.data))
+print((X_train_tfidf_array[0][0]))
+print((X_train_tfidf.data[0]))
+print(X_train_tfidf_array == X_train_tfidf.data)
 
 #Test data
 X_test_counts = count_vect.transform(test_data)
@@ -58,40 +64,15 @@ X_test_tfidf = tfidf_transformer.transform(X_test_counts)
 X_test_tfidf_array = X_test_tfidf.toarray()
 
 
-predicted = own_algorithm.classify_multiple_vectors(X_train_tfidf_array, X_test_tfidf_array, training_target))
+predicted = own_algorithm.classify_multiple_vectors(X_train_tfidf_array, X_test_tfidf_array, training_target)
 
-tester.mean_accuracy(predicted, test_target)
+predicted = [0 if x == -1 else x for x in predicted]
+predicted = np.asarray(predicted)
+test_target = [0 if x == -1 else x for x in test_target]
 
+print(predicted)
+print(test_target)
 
+print(tester.mean_accuracy(predicted, test_target))
 
-
-
-#
-#
-# text_clf = Pipeline([('vect', CountVectorizer()),
-# 					 ('tfidf', TfidfTransformer()),
-# 					 ('clf', MultinomialNB()),
-# ])
-#
-# SGD_text_clf = Pipeline([('vect', CountVectorizer()),
-# 					 ('tfidf', TfidfTransformer()),
-# 					 ('clf', SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, n_iter=5, random_state=42)),
-# ])
-#
-#
-# text_clf = text_clf.fit(training_data,training_target)
-# SGD_text_clf = SGD_text_clf.fit(training_data,training_target)
-#
-
-
-# predicted_test = tester.predict_with_test_data(text_clf,test_data)
-# print("This is np mean accuracy for Naiive Bayes:")
-# print(tester.mean_accuracy(predicted_test,test_target))
-# print("this is the detailed accuracy table:")
-# print(tester.detailed_accuracy(predicted_test,test_target,["Fake News","Solid Journalism"]))
-#
-# SGD_predicted_test = tester.predict_with_test_data(SGD_text_clf,test_data)
-# print("This is np mean accuracy for Support Vector Machine:")
-# print(tester.mean_accuracy(SGD_predicted_test,test_target))
-# print("this is the detailed accuracy table:")
-# print(tester.detailed_accuracy(SGD_predicted_test,test_target,["Fake News","Solid Journalism"]))
+print(tester.detailed_accuracy(predicted, test_target, ["Fake News","Solid Journalism"]))
