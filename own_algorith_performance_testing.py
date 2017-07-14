@@ -58,9 +58,9 @@ X_test_tfidf = tfidf_transformer.transform(X_test_counts)
 X_test_tfidf_array = X_test_tfidf.toarray()
 
 
-predicted = own_algorithm.classify_multiple_vectors(X_train_tfidf_array, X_test_tfidf_array, training_target))
+predicted = own_algorithm.classify_multiple_vectors(X_train_tfidf_array, X_test_tfidf_array, training_target)
 
-tester.mean_accuracy(predicted, test_target)
+print(tester.mean_accuracy(predicted, test_target))
 
 
 
