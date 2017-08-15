@@ -34,7 +34,7 @@ def __parse_string(string):
     return new_words
 
 counted_words(test_articles)
-print "---"
-print word_frequency
-print "---"
-print word_map
+print ("---")
+print (word_frequency)
+print ("---")
+print (word_map)

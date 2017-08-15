@@ -24,7 +24,7 @@ Guardian VR wanted to capture the sense of isolation that many interviewees spok
 
 If you want to watch the film as a VR experience you can put your phone into Google cardboard and watch it on YouTube in cardboard mode. It’s also available on the Guardian VR app from the Google Play Store. It will be also be available soon on Gear VR.
 
-ColinColin
+~_~
 
 The Guardian’s solitary confinement experience 6x9 can be viewed on Daydream View, Samsung Gear VR and Cardboard. To watch on Samsung Gear VR, you will need a Samsung phone and headset . Google Cardboard is an inexpensive set of goggles made from cardboard, with plastic lenses. To watch 6x9, you must insert your Android or iOS smartphone into the Cardboard. The 6x9 app requires Android version 4.4 or higher, or iOS version 9.0 or higher. You can order Cardboard online here . There are more details on how to watch 6x9 here .
 
@@ -32,7 +32,7 @@ I don’t have a VR headset. Can I still experience 6x9 and Underworld on my sma
 
 6x9 can be viewed without a VR headset. Upon opening the Guardian’s 6x9 app on your Android or iOS smartphone you will have the choice to view it using a headset or just on your phone. If you choose the latter option then you can move the phone around and as you do the image on the screen will move around to reveal a 360 image. This is often called “magic window”. You will not get the intended full immersive experience however – we recommend viewing 6x9 via a headset if possible. Underworld can currently only be experienced through a Daydream-ready phone with a Daydream View headset.
 
-ColinColin
+~_~
 
 Doctors are using Snapchat to send patient scans to each other, a panel of health and tech experts has found, concluding the “digital revolution has largely bypassed the NHS”.
 
@@ -66,7 +66,7 @@ Harsher words were reserved for DMH’s public and patient engagement: specifica
 
 The panel had one final criticism of DeepMind Health: its members would like to be paid for their work. Noting the “significant and complex workload” required to oversee the company, the report recommended the introduction of an honorarium for each member, paid in exchange for the time commitment, alongside an independent appointment process.
 
-ColinColin
+~_~
 
 The hackers behind the NotPetya ransomware, which wiped computers in more than 60 countries in late June, have moved more than £8,000 worth of bitcoins out of the account used to receive the ransoms.
 
@@ -94,7 +94,7 @@ It wasn’t immediately clear how or why hackers might still have access to ME D
 
 Cyber police chief Coonel Serhiy Demydiuk previously said that ME Doc’s owners would be brought to justice, but Kvitko said there had been no arrests.
 
-ColinColin
+~_~
 
 Androids could offer valuable help to the elderly and disabled but may lead to the increased objectification of women
 
@@ -134,7 +134,7 @@ Both male and female robots are available, but there are particular concerns the
 
 “Sex robots are an interesting case study, if you will, to look at the main issues we face with robotics, writ large,” she said. “So this idea of moral de-skilling ... we’re interacting with the robots in these companionship, personalised ways and what kind of consequences does that have on the human users? Does that mean we won’t want to interact with humans any more because it’s just easier to talk to the robot or easier to engage in sexual gratification with the robot?”
 
-ColinColin
+~_~
 
 In the brightly lit robotics workshop at Abyss Creations’ factory in San Marcos, California, a life-size humanoid was dangling from a stand, hooked between her shoulder blades. Her name was Harmony. She wore a white leotard, her chest was thrust forward and her French-manicured fingers were splayed across the tops of her slim thighs.
 
@@ -320,7 +320,7 @@ McMullen doubled up in laughter. Then he brushed the hair gently from her face. 
 
 • Follow the Long Read on Twitter at @gdnlongread, or sign up to the long read weekly email here.
 
-ColinColin
+~_~
 
 Huawei has achieved something quite special with its new laptop that is one of the lightest around without sacrificing power
 
@@ -436,7 +436,7 @@ Facebook Twitter Pinterest The MateBook X weighs just over 1kg making it easy to
 
 Other reviews
 
-ColinColin
+~_~
 
 It’s the best, lightest, most beautiful laptop around. Until it runs out of battery. Or you forget a dongle. Or you realise you’re bankrupt
 
@@ -604,5 +604,4 @@ Facebook Twitter Pinterest #DongleLife Photograph: Samuel Gibbs for the Guardian
 
 Other reviews
 
-ColinColin
-
+~_~

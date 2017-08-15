@@ -25,8 +25,7 @@ def classify_multiple_vectors(training_vectors, test_vectors, training_classific
             classifiers[i] = 0
     return classifiers
 
-# print(classify_multiple_vectors([[0,0,0,0,0], [100,100,100,100,100]], [[1,1,1,1,1],[99,99,99,99,99]], [1,-1]))
 
-# print(classify_single_vector([[0,0,0,0,0], [100,100,100,100,100]], [99,99,99,99,99], [1,-1]))
-
-# print(compare_vectors([0,0,0,0,0], [2,2,2,2,2]))
+print(classify_multiple_vectors([[0,0,0,0,0], [100,100,100,100,100]], [[1,1,1,1,1],[99,99,99,99,99]], [1,-1]))
+print(__classify_single_vector([[0,0,0,0,0], [100,100,100,100,100]], [99,99,99,99,99], [1,-1]))
+print(__compare_vectors([0,0,0,0,0], [2,2,2,2,2]))

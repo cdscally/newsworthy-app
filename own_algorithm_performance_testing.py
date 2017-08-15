@@ -10,10 +10,10 @@ category1_test = []
 category2_training = []
 category2_test = []
 
-category1_training_files = ['fake_news_train.txt']
-category1_test_files = ['fake_news_test.txt']
-category2_training_files = ['real_train.txt']
-category2_test_files = ['real_test.txt']
+category1_training_files = ['./performance_testing/fake_news_train.txt']
+category1_test_files = ['./performance_testing/fake_news_test.txt']
+category2_training_files = ['./performance_testing/real_train.txt']
+category2_test_files = ['./performance_testing/real_test.txt']
 
 parser.parse_txt_into_lists(category1_training_files,category1_training,"~_~")
 parser.parse_txt_into_lists(category1_test_files,category1_test,"~_~")
@@ -61,37 +61,3 @@ X_test_tfidf_array = X_test_tfidf.toarray()
 predicted = own_algorithm.classify_multiple_vectors(X_train_tfidf_array, X_test_tfidf_array, training_target)
 
 print(tester.mean_accuracy(predicted, test_target))
-
-
-
-
-
-#
-#
-# text_clf = Pipeline([('vect', CountVectorizer()),
-# 					 ('tfidf', TfidfTransformer()),
-# 					 ('clf', MultinomialNB()),
-# ])
-#
-# SGD_text_clf = Pipeline([('vect', CountVectorizer()),
-# 					 ('tfidf', TfidfTransformer()),
-# 					 ('clf', SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, n_iter=5, random_state=42)),
-# ])
-#
-#
-# text_clf = text_clf.fit(training_data,training_target)
-# SGD_text_clf = SGD_text_clf.fit(training_data,training_target)
-#
-
-
-# predicted_test = tester.predict_with_test_data(text_clf,test_data)
-# print("This is np mean accuracy for Naiive Bayes:")
-# print(tester.mean_accuracy(predicted_test,test_target))
-# print("this is the detailed accuracy table:")
-# print(tester.detailed_accuracy(predicted_test,test_target,["Fake News","Solid Journalism"]))
-#
-# SGD_predicted_test = tester.predict_with_test_data(SGD_text_clf,test_data)
-# print("This is np mean accuracy for Support Vector Machine:")
-# print(tester.mean_accuracy(SGD_predicted_test,test_target))
-# print("this is the detailed accuracy table:")
-# print(tester.detailed_accuracy(SGD_predicted_test,test_target,["Fake News","Solid Journalism"]))

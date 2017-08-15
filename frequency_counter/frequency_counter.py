@@ -48,4 +48,4 @@ def __already_in_word_library(word, word_frequencies):
         return 0
 
 
-print all_articles_word_frequency_table(articles)
+print(all_articles_word_frequency_table(articles))
